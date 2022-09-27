@@ -144,7 +144,7 @@ int main() {
             final_set.emplace_back(vector<int>{i});
         }
     }
-    //TODO change into generic output.txt
+
 
     if(final_set.empty()){
         output<<"NO frequent items in the input file"<<endl;

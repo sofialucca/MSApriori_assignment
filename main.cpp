@@ -188,7 +188,7 @@ int main() {
 
 
                 //for(int j =i+1;j<F[k-1].size();j++){
-                for(int j =0;j<F[k-1].size();j++){
+                for(int j =i+1;j<F[k-1].size();j++){
                     vector<int> new_cand;
                     bool valid = true;
                     int z;
@@ -260,14 +260,15 @@ int main() {
 
 
     for(int k =0; k<F.size();k++){
-        output<<"(Length- "<<k+1<<" "<<F[k].size()<<" frequent itemsets"<<endl;
+        output<<"(Length- "<<k+1<<" "<<F[k].size()<<endl;
         for(auto &itemset:F[k]){
-            output<<"\t(";
+            output<<"\t("<<itemset.front();
+            itemset.erase(itemset.begin());
             for(auto &it:itemset){
                 output<<" "<<it;
 
             }
-            output<<" )"<<endl;
+            output<<")"<<endl;
         }
         output<<")"<<endl;
     }

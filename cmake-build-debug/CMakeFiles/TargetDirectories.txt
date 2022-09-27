@@ -1,3 +1,3 @@
-C:/Users/sofy9/OneDrive/Desktop/TOP-UIC/Corsi/Data Mining Text Mining/Assignments/MSApriori_assignment/cmake-build-debug/CMakeFiles/MSApriori_assignment.dir
-C:/Users/sofy9/OneDrive/Desktop/TOP-UIC/Corsi/Data Mining Text Mining/Assignments/MSApriori_assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/sofy9/OneDrive/Desktop/TOP-UIC/Corsi/Data Mining Text Mining/Assignments/MSApriori_assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/slucca2/Desktop/MSApriori_assignment/cmake-build-debug/CMakeFiles/MSApriori_assignment.dir
+C:/Users/slucca2/Desktop/MSApriori_assignment/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/slucca2/Desktop/MSApriori_assignment/cmake-build-debug/CMakeFiles/rebuild_cache.dir

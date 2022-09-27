@@ -56,10 +56,10 @@ RM = "C:\Users\slucca2\AppData\Local\JetBrains\CLion 2022.2.3\bin\cmake\win\bin\
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\slucca2\Desktop\MSApriori_assignment
+CMAKE_SOURCE_DIR = C:\Users\slucca2\Documents\MSApriori_assignment
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\slucca2\Desktop\MSApriori_assignment\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\slucca2\Documents\MSApriori_assignment\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\slucca2\Desktop\MSApriori_assignment\cmake-build-debug\CMakeFiles C:\Users\slucca2\Desktop\MSApriori_assignment\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\slucca2\Documents\MSApriori_assignment\cmake-build-debug\CMakeFiles C:\Users\slucca2\Documents\MSApriori_assignment\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\slucca2\Desktop\MSApriori_assignment\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\slucca2\Documents\MSApriori_assignment\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target

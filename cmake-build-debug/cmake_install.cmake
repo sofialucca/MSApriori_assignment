@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/slucca2/Desktop/MSApriori_assignment
+# Install script for directory: C:/Users/slucca2/Documents/MSApriori_assignment
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/slucca2/Desktop/MSApriori_assignment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/slucca2/Documents/MSApriori_assignment/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

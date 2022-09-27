@@ -199,7 +199,7 @@ int main() {
                     }
                     if(valid) {
                         double sup_1 = itemsMap.find(F[k-1][i][k-1])->second;
-                        double sup_2 = itemsMap.find(F[k-1][i][k-1])->second;
+                        double sup_2 = itemsMap.find(F[k-1][j][k-1])->second;
                         if (F[k - 1][i][k-1] != F[k - 1][j][k-1]) {
                             if (pos.find(F[k - 1][i][k-1])->second < pos.find(F[k - 1][j][k-1])->second && abs(sup_2 - sup_1) <= sdc) {
 
